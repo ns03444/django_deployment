@@ -6,7 +6,9 @@ import requests
 from bs4 import BeautifulSoup
 from news_app.models import Google, Bloomberg, Barron
 requests.packages.urllib3.disable_warnings()
-
+#notes about makeing new git updates
+#
+#hello added
 def news_scrape():
     session = requests.Session()
     session.headers = {"User-Agent": "Mozilla/5.0"}
